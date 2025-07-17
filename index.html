@@ -1,42 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TONSTACK — Mobile App Team</title>
+  <meta charset="UTF-8">
+  <title>TonStack</title>
   <style>
     body {
-      margin: 0;
-      padding: 4rem;
       font-family: Arial, sans-serif;
-      background-color: #111;
-      color: #eee;
+      margin: 0;
+      background-color: #f8f8f8;
+    }
+    header {
+      background-color: #000;
+      padding: 20px;
       text-align: center;
     }
-    h1 { font-size: 2rem; }
-    p { font-size: 1.1rem; line-height: 1.5; max-width: 600px; margin: 1rem auto; }
-    a {
-      color: #00ffaa;
+    header h1 {
+      color: #fff;
+      margin: 0;
+      font-size: 26px;
+      letter-spacing: 1px;
+    }
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+    }
+    nav a {
+      color: #ccc;
       text-decoration: none;
-      border-bottom: 1px dashed #00ffaa;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    nav a:hover {
+      color: white;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #222;
+    }
+    ul {
+      padding-left: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>TONSTACK</h1>
-  <p>A boutique US-based mobile development team.<br>
-     We build, ship, and scale iOS, Android, and cross-platform apps with Flutter, Swift, Kotlin, and more.</p>
-  
-  <h2>Who We Are</h2>
-<p>
-  We are a tight-knit team of 10 senior mobile engineers, project leads, and QA testers based in the US and Southeast Asia.  
-  <br><br>
-  Each member brings 6–12+ years of experience in shipping real-world apps — from Silicon Valley startups to enterprise clients.
-  <br><br>
-  We don’t just code. We think product, build fast, communicate clearly, and deliver results.
-</p>
 
+<header>
+  <h1>TonStack</h1>
+</header>
 
-  <p>Email: <a href="mailto:thanh11314@gmail.com">thanh11314@gmail.com</a></p>
+<nav>
+  <a href="#about">About</a>
+  <a href="#team">Team</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About</h2>
+  <p>TonStack is a US-based remote mobile dev team. We turn ideas into powerful apps — from zero to launch on App Store & Google Play.</p>
+</section>
+
+<section id="team">
+  <h2>Team</h2>
+  <p>We are a senior team of 10 — covering Flutter, native iOS/Android, backend, QA, and DevOps. Led by Ton.</p>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <ul>
+    <li>Custom mobile app development (Flutter, iOS, Android)</li>
+    <li>Backend development & API integration</li>
+    <li>App testing & QA</li>
+    <li>Deployment & ongoing support</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email us at: <a href="mailto:thanh11314@gmail.com">thanh11314@gmail.com</a></p>
+</section>
+
 </body>
 </html>
