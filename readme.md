@@ -2,7 +2,7 @@
 
 A US-based boutique mobile app development team.
 
-We are a remote team of 10 senior developers led by Ton — delivering complete mobile solutions, from idea to App Store & Play Store deployment.
+We’re a remote team of 10 senior developers, led by Ton — offering full mobile solutions from concept to launch on the App Store and Google Play.
 
 ### 👨‍💻 What We Do
 
